@@ -1,0 +1,120 @@
+.c {
+  height: 100%;
+  position: relative;
+  background-image: url("/src/images/stacked-peaks-haikei.svg");
+
+}
+
+.mb-3 {
+  color: white;
+}
+
+.c-bg {
+  width: 20px;
+  height: 100%;
+  background-color: #FEE715FF;
+  position: absolute;
+}
+
+.c-wrapper {
+  padding: 50px;
+  display: flex;
+}
+
+.c-left {
+  flex: 1;
+}
+
+.c-right {
+  flex: 1;
+
+}
+
+.c-title {
+  font-size: 60px;
+  width: 80%;
+}
+
+.c-info-item {
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+  font-weight: 300;
+  width: 70;
+}
+
+.c-desc {
+  font-weight: 120;
+  font-size: 40px;
+  font-style: italic;
+  color: white;
+}
+
+
+.social-button {
+  position: relative;
+  border-radius: 50% !important;
+  height: 2.2rem;
+  width: 2.2rem;
+  margin-right: 1rem;
+  margin-bottom: .5rem;
+  background-color: white !important;
+}
+
+.social-button>* {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50% !important;
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+button {
+  border: none;
+  padding: 15px;
+  background-color: rgb(80, 95, 139);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 8px !important;
+
+}
+
+button:hover {
+  background-color: darkred !important;
+
+}
+
+@keyframes bounce {
+
+  0%,
+  25%,
+  50%,
+  75%,
+  90%,
+  100% {
+    transform: translateY(0);
+  }
+
+  15%,
+  40% {
+    transform: translateY(-.8rem);
+  }
+
+  65%,
+  80% {
+    transform: translateY(-.5rem);
+  }
+
+  95% {
+    transform: translateY(-.25rem);
+  }
+}
+
+.social-button:hover {
+  animation: bounce 2.2s linear;
+  background-color: white !important;
+}
