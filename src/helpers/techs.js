@@ -20,16 +20,16 @@ export const techs = [
     iconName: "html5",
   },
   {
-    name: "Mongo DB",
-    iconName: "mongodb",
+    name: "Django",
+    iconName: "django",
   },
   {
     name: "Bootstrap",
     iconName: "bootstrap",
   },
   {
-    name: "SQL lite",
-    iconName: "sqllite",
+    name: "PostgreSQL",
+    iconName: "postgresql",
   },
   {
     name: "Github",
