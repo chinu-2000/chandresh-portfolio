@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import { VscCloudDownload } from "react-icons/vsc";
+// import { VscCloudDownload } from "react-icons/vsc";
 // import { FaSun } from "react-icons/fa";
 // import { FaMoon } from "react-icons/fa";
 
@@ -32,7 +32,7 @@ function Header() {
               </div>
             </div>
 
-            <div className="button-res">
+            {/* <div className="button-res">
               <a
                 href="/src/images/Chandresh-Pandey-Resume.pdf"
                 download
@@ -43,7 +43,7 @@ function Header() {
                   <VscCloudDownload size={"2rem"} />
                 </button>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
